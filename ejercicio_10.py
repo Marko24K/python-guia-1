@@ -1,10 +1,14 @@
 compra={}
 total=0
-opcion = int(input("1) comprar \n 2) salir \n"))
+opcion = int(input("""
+                    Bienvenido al supermercado Walmart
+                   ¿Que operacion desea realizar?
+                    1) Comprar
+                    2) Salir """))
 while (opcion != 2):
-    producto = str(input("seleccione un producto: "))
-    compra[producto] = int(input("el valor del producto: "))
-    opcion = int(input("1) comprar \n 2) salir"))
+    producto = str(input("Seleccione un producto: "))
+    compra[producto] = int(input(f"Ingresar el valor del producto {compra[producto]}: "))
+    opcion = int(input("1) Continuar comprando \n 2) Salir"))
 
 print("Lista de compras")
 for llave in compra:
