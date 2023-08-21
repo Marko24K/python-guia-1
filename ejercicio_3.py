@@ -5,7 +5,7 @@ def main():
                 return False
         return True
 
-    x=int(input("Ingrese un número: "))
+    x = int(input("Ingrese un número: "))
     if primo(x):
         print(f"{x} es primo")
     else:

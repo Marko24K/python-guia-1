@@ -1,7 +1,7 @@
 def main():
     palabra = str(input("Ingresa una palabra: "))
     letra = str(input("¿Que letra desea saber cuantas veces se repite?: "))
-    c=0
+    c = 0
     for letras in palabra:
         if(letras == letra):
             c+=1
